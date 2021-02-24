@@ -1,5 +1,5 @@
-var fish = new Vue({
-    el: "#app2",
+var app = new Vue({
+    el: "#app",
 
     data: {
         newItem: "",
