@@ -11,9 +11,10 @@
     <!-- value="Name", key="Akira" -->
 
     <div id="app">
-        <hello></hello>
-        <hello></hello>
-        <hello></hello>
+        <button v-on:click="show=!show">Change</button>
+        <transition>
+            <p v-if="show">Hello</p>
+        </transition>
     </div>
 
 
@@ -23,7 +24,11 @@
 
 
 
-
+    <!-- <div id="app">
+        <button-counter></button-counter>
+        <button-counter></button-counter>
+        <button-counter></button-counter>
+    </div> -->
 
     <!-- <div id="app">
         <h2>TODO List</h2>

@@ -1,16 +1,41 @@
-Vue.component("hello", {
-    template: '<p>hello</p>'
-})
-
-var app = new Vue ({
+var app = new Vue({
     el: "#app",
-
-
+    data: {
+        show: false
+    }
 })
 
 
 
 
+
+
+
+
+
+
+
+
+// var hello = {
+//     // コンポーネント名は「ー」をつける"hello-component"
+//     template: "<p>hello</p>"
+// }
+
+// Vue.component("button-counter", {
+//     // dataは関数
+//     data: function() {
+//         return {
+//             count: 0
+//         }
+//     },
+//     // templateはタグ１つ内
+//     template: '<button v-on:click="count++">{{ count }}</button>'
+// })
+
+// var app = new Vue ({
+//     el: "#app",
+
+// })
 
 // var app = new Vue({
 //     el: "#app",
